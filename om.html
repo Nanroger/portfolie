@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Forside</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.webp" alt="logo"></a>
+            </div>
+        </div>
+        <div class="menu-button-burger" onclick="toggleMenu()">
+            <div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </div>
+        <div class="menu-button" onclick="toggleMenu()">Menu</div>
+    </header>
+
+    <div class="menu" id="slide-menu">
+        <nav>
+            <button class="close-button" onclick="closeMenu()"><img src="img/logo.webp" alt="logo"></button>
+            <ul>
+                <li><a href="om.html">01 Om mig</a></li>
+                <li><a href="web.html">02 web</a></li>
+                <li><a href="ux.html">03 UX</a></li>
+                <li><a href="animation.html">04 Animation</a></li>
+                <li><a href="grundindhold.html">05 Grundindhold</a></li>
+            </ul>
+        </nav>
+        <img src="img/dropdown.webp" alt="Background Image">
+    </div>
+    <main>
+        <div class="flex-container">
+            <img src="img/name.webp" alt="navn">
+        </div>
+        <div class="indhold-container">
+            <div>
+                <div class="tekst-column-1">
+                    <p> Mit navn er Nanna og jeg er 23. Udover at studere multimediedesign på Købehavns Erhvervsakademi
+                        er jeg glad for at være kreativ, og du ser mig næsten altid med en kuglepen eller en hæklenål i
+                        hånden. Jeg har været glad for de kompetencer jeg har tillært mig indtil videre på semesteret,
+                        og specielt videoredigering og fotografering har vækket min interesse. Jeg har førhen studeret
+                        kommunikation og IT på KU, og har fået tilegnet mig nogle kompetencer allerede der om css, html
+                        og java script. Jeg håber på at kunne komme til at arbejde med illustrator eller
+                        promoveringsfotograf når jeg er færdiguddannet.</p>
+                </div>
+            </div>
+            <div class="billede-column">
+                <img src="img/portrat.webp" alt="thumbnail">
+                <div class="knap">
+                    <a
+                        href="https://docs.google.com/document/d/1thGuJcGDfFNPTUs4ptTFrSB3q56F3c9OlSBndfEi3Pg/edit?usp=sharing">
+                        <h2>Curriculum vitae</h2>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-column">
+            <h3> INSTAGRAM / Rogeeeeeeeeeeeer</h3>
+        </div>
+
+        <div class="footer-column">
+            <h3>TELEFON / +45 30 32 69 29</h3>
+        </div>
+
+        <div class="footer-column">
+            <h3>EMAIL / nape0006@stud.kea.dk</h3>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Source+Code+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Forside</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.webp" alt="logo"></a>
+            </div>
+        </div>
+        <div class="menu-button-burger" onclick="toggleMenu()">
+            <div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </div>
+        <div class="menu-button" onclick="toggleMenu()">Menu</div>
+    </header>
+
+    <div class="menu" id="slide-menu">
+        <nav>
+            <button class="close-button" onclick="closeMenu()"><img src="img/logo.webp" alt="logo"></button>
+            <ul>
+                <li><a href="om.html">01 Om mig</a></li>
+                <li><a href="web.html">02 web</a></li>
+                <li><a href="ux.html">03 UX</a></li>
+                <li><a href="animation.html">04 Animation</a></li>
+                <li><a href="grundindhold.html">05 Grundindhold</a></li>
+            </ul>
+        </nav>
+        <img src="img/dropdown.webp" alt="Background Image">
+    </div>
+    <main>
+        <div class="flex-container">
+            <h1>03 UX</h1>
+        </div>
+        <div class="indhold-container">
+            <div>
+                <div class="tekst-column">
+                    <h2>Inspirations site</h2>
+                </div>
+                <div class="tekst-column">
+                    <p> I Tema 3 lærte vi om UX og UI design. Vi blev introduceret for arbejde i Figma og
+                        designprocesser fra start til slut. I
+                        forhold til test valgte jeg at lave 5-sekunders test og lighthouse test som baggrund og
+                        arguemnetering af endeligt site.
+                        Det havde jeg stor succes med og gentog processen i Tema 5 i Redesign af virksomhedssite. Det
+                        sværeste var at tage
+                        beslutninger i designdeling, så jeg var ekstra opmærksom på at tage mig ekstra god tid og være
+                        mere grundig da vi skulle
+                        til det igen i Tema 5. Til slut i projektet udviklede vi vores færdigheder i
+                        projektpræsentation.
+                    </p>
+                </div>
+            </div>
+            <div class="billede-column">
+                <img src="img/norrebro.webp" alt="thumbnail">
+                <div class="knap">
+                    <a
+                        href="https://docs.google.com/presentation/d/1iOalwWuBowEYanlJiM9PhmVAnfwpzZVFQ0_MGPajuRI/edit?usp=sharing">
+                        <h2>PRÆSENTATION</h2>
+                    </a>
+                </div>
+                <div class="knap">
+                    <a href="Procesdokumentation.pdf" download="Procesdokumentation.pdf">
+                        <h2>DOKUMENTATION</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-column">
+            <h3>INSTAGRAM / Rogeeeeeeeeeeeer</h3>
+        </div>
+
+        <div class="footer-column">
+            <h3>TELEFON / +45 30 32 69 29</h3>
+        </div>
+
+        <div class="footer-column">
+            <h3>EMAIL / nape0006@stud.kea.dk</h3>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

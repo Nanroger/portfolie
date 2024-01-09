@@ -1,0 +1,443 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  color: #b2c2fa;
+  font-family: "Philosopher", sans-serif;
+}
+
+h2 {
+  color: #b2c2fa;
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 5%;
+}
+p {
+  color: #b2c2fa;
+  font-family: "Philosopher", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.menu h1 {
+  visibility: hidden;
+}
+.menu a {
+  text-decoration: underline;
+  color: #b2c2fa;
+  font-family: "Source Code Pro", monospace;
+}
+@media (min-width: 800px) {
+  header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  .menu-button {
+    cursor: pointer;
+    margin-right: 45%;
+    color: #b2c2fa;
+    font-family: "Philosopher", sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1rem;
+    border: 1px solid #b2c2fa;
+  }
+
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transition: top 0.3s ease;
+  }
+
+  .menu img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .menu nav {
+    padding: 20px;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu li {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #b2c2fa;
+  }
+
+  .menu-button:hover,
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  .close-button {
+    background-color: black;
+    color: black;
+    border: none;
+    padding: 10px;
+    padding-left: 47%;
+    cursor: pointer;
+  }
+  .top-main-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 7%;
+  }
+  .PORTFOLIE-1 {
+    transform: rotate(-90deg);
+    font-size: 3rem;
+    padding-right: 20%;
+  }
+  .PORTFOLIE-2 {
+    transform: rotate(90deg);
+    font-size: 3rem;
+    padding-left: 20%;
+  }
+  .tekst-box-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 20%;
+    padding-bottom: 10%;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-container img {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .flex-container h1 {
+    font-size: 4rem;
+    font-family: "Philosopher", sans-serif;
+  }
+  .indhold-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+    margin-top: 0;
+  }
+  .tekst-column {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .tekst-column p {
+    line-height: 2;
+    text-align: center;
+  }
+  .tekst-column-1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+  }
+  .tekst-column-1 p {
+    line-height: 2;
+    text-align: center;
+  }
+  .knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1rem;
+    border: 1px solid #b2c2fa;
+  }
+  .knap-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1rem;
+    border: 1px solid #b2c2fa;
+  }
+  .billede-column img {
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 7%;
+  }
+  .billede_knap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .tekst-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .tekst-1 p {
+    line-height: 2;
+  }
+  .p-tekst-1 {
+    padding-right: 5%;
+  }
+  .p-tekst-2 {
+    padding-left: 5%;
+  }
+
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #b2c2fa;
+    margin-left: 10%;
+    margin-right: 10%;
+    /******
+    background-image: url(img/baggrund.webp);
+    background-size: cover; /* Adjust the background size property as needed 
+    background-position: center; */
+  }
+
+  .footer-column {
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 10px;
+    color: #b2c2fa;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .footer-column {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-column h3 {
+    color: #071135;
+    font-family: "Philosopher", sans-serif;
+    font-size: 0.7rem;
+  }
+  footer {
+    background-image: url(img/baggrund.webp);
+    background-size: cover; /* Adjust the background size property as needed */
+    background-position: center;
+    margin-top: 20%;
+  }
+
+  .container-logo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  /**************undersider*******/
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1rem;
+    border: 1px solid #b2c2fa;
+  }
+  .knap-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1rem;
+    border: 1px solid #b2c2fa;
+  }
+  .tekst-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .tekst-column p {
+    line-height: 1.5;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  .tekst-column-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .tekst-column-1 p {
+    line-height: 1.5;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  .tekst-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .tekst-1 p {
+    line-height: 1.5;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  .flex-container img {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+  }
+  .menu-button-burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    width: 20px;
+  }
+
+  .burger {
+    background-color: #b2c2fa;
+    height: 3px;
+    width: 25px;
+    margin: 5px 0;
+  }
+
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transition: top 0.3s ease;
+  }
+
+  .menu nav {
+    padding: 20px;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu a {
+    text-decoration: underline;
+    color: #b2c2fa;
+    font-family: "Source Code Pro", monospace;
+  }
+
+  .close-button {
+    background-color: black;
+    color: black;
+    border: none;
+    padding: 10px;
+    padding-left: 35%;
+    cursor: pointer;
+  }
+
+  .menu-button-burger:hover,
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  .PORTFOLIE-1 {
+    transform: rotate(-90deg); /* Tilt the h1 element */
+    opacity: 0.5; /* Set the transparency (0.0 to 1.0) */ /* Ensure that the h1 is stacked above other elements */
+    margin: 0;
+    visibility: hidden;
+  }
+  .PORTFOLIE-2 {
+    transform: rotate(90deg); /* Tilt the h1 element */
+    opacity: 0.5; /* Set the transparency (0.0 to 1.0) */ /* Ensure that the h1 is stacked above other elements */
+    margin: 0;
+    visibility: hidden;
+  }
+
+  .tekst-box-index {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+  }
+}
